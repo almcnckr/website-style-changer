@@ -1,0 +1,39 @@
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vize Ödevi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form id="styleForm">
+        <label id = "headerLabel" >Stil Değiştirici</label>
+        <label for="chooseColor">Arkaplan Rengi:</label>
+        <select id="chooseColor">
+            <option value="white">Beyaz</option>
+            <option value="pink">Pembe</option>
+            <option value="lightgreen">Açık Yeşil</option>
+            <option value="cyan">Camgöbeği</option>
+            <option value="gray">Gri</option>
+        </select>
+
+        <label for="chooseFont">Yazı Tipi:</label>
+        <select id="chooseFont">
+            <option value="Arial">Arial</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+
+        <label for="chooseSize">Yazı Boyutu:</label>
+        <input type="number" id="chooseSize" placeholder="Örnek: 12">
+
+        <button type="button" onclick="updateTextStyle()">Uygula</button>
+    </form>
+</body>
+
+</html>
